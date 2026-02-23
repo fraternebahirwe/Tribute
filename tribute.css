@@ -1,0 +1,59 @@
+h1{
+    background-color: rgb(0,98, 199);
+    text-align: center;
+    padding: 10px;
+    color:rgb(255, 255, 255); 
+    width: 100%;
+}
+
+html ,body{
+     background-color: rgb(244, 244, 244);
+     font-family:  Arial, sans-serif;
+     justify-content: center;
+     display:flex;
+     flex-direction: column;
+     height: auto;
+}
+
+.container{
+     background-color:rgb(255, 255, 255) ;
+     box-shadow: 0 0 10px rgb(0,0,0,0.1);
+     border-radius: 15px;
+     margin-bottom: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+
+footer{
+     background-color: rgb(0, 98, 199);
+     text-align: center;
+     color: white;
+     padding: 10px;   
+     width: 100%;
+}
+
+.container .part2{
+     padding: 20px;
+     margin-bottom: 40px;
+}
+
+.container .part1 {
+     padding: 20px;   
+}
+
+@media screen and (max-width: 600px) {
+     
+    .container .part1, .container .part2 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    footer{
+      width: 90%;
+    }
+   
+}
